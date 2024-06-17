@@ -1,0 +1,48 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.navContent {
+  width: 90vw;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4vh;
+}
+
+.brand {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+  font-weight: 400;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-width: 15vw;
+  cursor: pointer;
+}
+
+.logo {
+  margin: 0.4rem;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-width: 45vw;
+  list-style: none;
+}
+
+.navItem li {
+  margin: 0.5vh 2vw;
+  cursor: pointer;
+}

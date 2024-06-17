@@ -1,0 +1,25 @@
+.categoryContainer {
+  width: 90vw;
+  min-height: 22vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 4vh 0;
+}
+
+.options {
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.95rem;
+  margin: 2vh 1.5vw;
+}
+
+.optImage {
+  min-width: 5vw;
+  height: 12vh;
+  cursor: pointer;
+}
